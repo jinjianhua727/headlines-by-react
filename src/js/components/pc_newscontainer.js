@@ -23,10 +23,10 @@ export default class PCNewsContainer extends React.Component {
 						<div class="leftContainer">
 							<div class="carousel">
 								<Carousel {...settings}>
-									<div><img src="./images/carousel_1.jpg"/></div>
-									<div><img src="./images/carousel_2.jpg"/></div>
-									<div><img src="./images/carousel_3.jpg"/></div>
-									<div><img src="./images/carousel_4.jpg"/></div>
+									<div><img src="./src/images/carousel_1.jpg"/></div>
+									<div><img src="./src/images/carousel_2.jpg"/></div>
+									<div><img src="./src/images/carousel_3.jpg"/></div>
+									<div><img src="./src/images/carousel_4.jpg"/></div>
 								</Carousel>
 							</div>
 							<PCNewsImageBlock count={6} type="guoji" width="400px" cartTitle="国际头条" imageWidth="112px"/>
@@ -45,8 +45,8 @@ export default class PCNewsContainer extends React.Component {
 							</TabPane>
 						</Tabs>
 						<div>
-							<PCNewsImageBlock count={8} type="guonei" width="100%" cartTitle="国内新闻" imageWidth="132px"/>
-							<PCNewsImageBlock count={16} type="yule" width="100%" cartTitle="娱乐新闻" imageWidth="132px"/>
+							<PCNewsImageBlock count={8} type="guonei" width="100%" cartTitle="国内新闻" imageWidth="124px"/>
+							<PCNewsImageBlock count={16} type="yule" width="100%" cartTitle="娱乐新闻" imageWidth="124px"/>
 						</div>
 					</Col>
 					<Col span={2}></Col>
